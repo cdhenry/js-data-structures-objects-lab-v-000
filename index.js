@@ -23,5 +23,9 @@ function destructivelyDeleteFromDriverByKey(driver, key){
 const oneTwoThree = [1, 2, 3]
 const sevenEightNine = [7, 8, 9]
 
+const letters = ["alpha", "gamma", "delta"]
+
 console.log([4, 5, 6, ...oneTwoThree, ...sevenEightNine])
 
+console.log(...letters.slice(0,1), 'beta', ...letters.slice(1))
+  
