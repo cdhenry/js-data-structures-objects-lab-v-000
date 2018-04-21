@@ -19,3 +19,8 @@ function destructivelyDeleteFromDriverByKey(driver, key){
   delete driver[key];
   return driver;
 }
+
+const oneTwoThree = [1, 2, 3]
+const sevenEightNine = [7, 8, 9]
+
+[4, 5, 6, ...oneTwoThree, ...sevenEightNine]
